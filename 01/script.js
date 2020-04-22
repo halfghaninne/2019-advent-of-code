@@ -3,6 +3,8 @@ const readline = require('readline');
 const path = require('path');
 let total = 0;
 
+// Hello!
+
 const readStream = fs.createReadStream(path.join(__dirname, '/input.txt'), { emitClose: true });
     const rl = readline.createInterface({
       input: readStream
